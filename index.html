@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+    <div class="flex-container">
+        <form name="vardasForm" class="vardas" action="#">
+            <input name="fVardas" id="vardas-input" type="text" placeholder="vardas">
+            <input type="submit" value = "Pridėti" id="prideti" onsubmit="return validateForm()"></input>
+        </form>
+        <form name="pavarde" class="pavarde" action="#">
+            <input id="pavarde-input" type="text" placeholder="pavardė">
+            <input type="submit" value="Ištrinti pirmą" id="istrintiPir" onsubmit="return validateForm()"></input>
+        </form>
+        <form name="amzius" class="amzius" action="#">
+            <input id="amzius-input" type="text" placeholder="amžius">
+            <input type="submit" value="Ištrinti paskutinį" id="istrintiPas" onsubmit="return validateForm()"></input>
+        </form>
+    </div>
+    <table id="table">
+        <tr class="trs">
+            <th>VARDAS</th>
+            <th>PAVARDĖ</th>
+            <th>AMŽIUS</th>
+        </tr>
+        <tr class="trs">
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+        </tr>
+        <tr class="trs">
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+        </tr>
+        <tr class="trs">
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+        </tr>
+<!-- script -->
+<script src="script.js"></script>
+    </table>
+</body>
+
+</html>

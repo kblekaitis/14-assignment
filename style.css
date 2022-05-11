@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;700&family=Roboto&display=swap');
+
+table {
+    border: 3px solid orange;
+    border-collapse: collapse;
+    font-family: "Roboto";
+    margin-top:10px;
+}
+
+th,
+td {
+    border: 1px solid orange;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* prideti font stiliu */
+table th {
+    background: rgb(254, 193, 6);
+}
+
+table td {
+    background: rgb(55, 43, 109);
+    color: white;
+}
+
+/* Kaip pakeisti 2 elementa header? */
+th:nth-of-type(2) {
+    background: rgb(229, 174, 47);
+}
+
+td {
+    text-align: left;
+}
+
+/* Didysis flex container */
+
+.flex-container{
+    display:flex;
+}
+
+/* Vardas input*/
+.vardas{
+    display:flex;
+    flex-direction:column;
+    margin-left: 5px
+}
+
+.vardas input{
+    max-width:170px;
+    margin-bottom:10px;
+}
+.vardas button{
+    max-width:178px;
+}
+
+/* Pavardė input */
+
+.pavarde {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px
+}
+
+.pavarde input {
+    max-width: 170px;
+    margin-bottom: 10px;
+}
+
+.pavarde button {
+    max-width: 178px;
+}
+
+/* Amžius */
+
+.amzius {
+    display: flex;
+    flex-direction: column;
+    margin-left:5px
+}
+
+.amzius input {
+    max-width: 170px;
+    margin-bottom: 10px;
+}
+
+.amzius button {
+    max-width: 178px;
+}
