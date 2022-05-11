@@ -59,7 +59,7 @@ Funkcija
 function validateForm() {
   var x = document.forms["vardasForm"]["fVardas"].value;
   if (x == "") {
-    alert("Name must be filled out");
+    alert("Ne visi duomenys įrašyti!");
     return false;
   }
 }
